@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Fredoka:wdth,wght@75.7,300;100,300;100,400;100,500&family=Hubballi&family=Lora:ital,wght@1,400;1,500&family=Luxurious+Roman&family=Poppins:wght@100&family=Roboto:wght@300&family=Source+Serif+Pro&family=The+Nautigal:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+.list{
+    flex-direction: column;
+}
+
+.title{
+    font-family: 'Fredoka',sans-serif;
+    margin: 2vw 45vw;
+}
+
+.container{
+   width: 360px;
+
+}
+
+.inputbar{
+    display: flex;
+    margin: 2vh 40vw;
+}
+
+#entertask{
+    width: 500px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 15pt;
+    vertical-align: middle;
+}
+
+#addToDo{
+    border: 2px solid black;
+    outline: none;
+    font-size: 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#addToDo:active{
+    transform: scale(0.98);
+}
+
+.todo {
+    margin: 2vh 40vw;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+.paragraph-styling{
+    cursor: pointer;
+    font-size: 15pt;
+    margin: 2vh 40vw;
+}
